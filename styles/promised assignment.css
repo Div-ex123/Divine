@@ -1,0 +1,77 @@
+body{
+    background-color: burlywood;
+    font-family: Outfit;
+    
+}
+header{
+    display: flex;
+    justify-content: center;
+    /* background-color: red; */
+   margin-top: 75px;
+   
+}
+.contents{
+    background-color: white;
+    width: 45em;
+    border: solid white;
+    border-radius: 15px;
+     line-height: 29px; 
+    padding-bottom: 55px;
+}
+aside{
+    /* background-color: blue;  */
+    padding-left: 40px;
+    padding-right: 20px;
+}
+h1 , h2{
+    font-family: Myriad Pro;
+    font-weight: bold;
+    color: brown;
+}
+img{
+    border: solid none;border-radius: 15px;
+}
+.omelette{
+    font-size: 35px;
+    color: black;
+    font-family: Clarendon BT;
+    
+}
+.table{
+    display: flex;
+   
+}
+table, tr, td{
+    padding: 0px 15px  0px;
+    border:1px solid black;
+    border-collapse: collapse;
+    border-top: none;
+    border-left:none ;
+    border-right: none;
+    
+
+}
+h3 {
+    color: rgb(146, 0, 0);
+}
+td{
+    font-family: Outfit;
+    width: 600px;
+    font-weight: 500 ;
+}
+.preparation{
+    background-color: rgba(255, 192, 203, 0.329);
+}
+li::marker{
+    color: rgb(87, 0, 0);
+    font-weight: bolder;
+}
+li,p{
+    font-family: Outfit;
+    font-weight: 400;
+    font-size: 18px;
+}
+.datas{
+    font-weight: bolder;
+    color: brown;
+}

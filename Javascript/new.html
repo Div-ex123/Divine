@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <input type="text" class="details" onkeydown="
+        if (event.key === 'Enter') {
+            myOutput();
+        }
+        ">
+    <button onclick="
+    myOutput();
+    ">submit</button>
+
+    <p class="dropdownmenu"></p>
+
+    <script>
+    function myOutput() {
+        const inputElement = document.querySelector('.details')
+        let text = inputElement.value;
+
+
+        document.querySelector('.dropdownmenu').innerHTML = `Your name is: ${text}`;
+    }
+
+
+    </script> -->
+
+
+    <button onclick="
+    updateQuantity();
+    cartQuantity += 2;
+    console.log(`cartQuantity: ${cartQuantity}`)
+    ">+2</button>
+    <p >Cart Quantity: <span class="data"></span></p>
+
+
+
+
+        <script>
+            let cartQuantity = 2;
+            function updateQuantity() {
+                document.querySelector('.data').innerHTML = `${cartQuantity}`
+            }
+        </script>
+</body>
+</html>

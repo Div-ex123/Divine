@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    padding: 0;
+ }
+ span {
+     color: blue;
+     font-weight: bold;
+ }
+
+ .divine {
+     color: darkolivegreen;
+ }
+ .head{
+    color: blue;
+    text-align: center;
+    background: brown;
+    padding: 1px;
+    
+ }
+ .all {
+    padding: 30px;
+    padding-top: 0px;
+    
+}
+table,
+thead,
+th,
+tr,
+td{
+   border: 2px solid black;
+   border-collapse: collapse;
+   padding: 10px 40px;
+   text-align: left;
+}
+thead{
+    text-transform: uppercase;
+    color: blue;
+}
+tbody{
+    color: green; 
+}
+.ifeoluwa{
+color: blueviolet;
+font-weight: bold;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.name{
+    background-color: aqua;
+padding: 0px 20px 0px 20px; 
+}
+
+.color{
+    background-color: brown;
+    padding: 0px 20px 0px 20px;
+    
+
+}
+.myself{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+.flex-container{
+     display: flex; 
+     /* flex-direction: row; */
+     background-color: red; 
+     justify-content: center;
+     align-items: center;  
+     height: 600px;   
+     /* flex-wrap: wrap; */
+     flex-flow: row wrap;
+    
+    
+}
+   .box{
+     background-color: green;
+     width: 100px;
+    gap: 10px;
+     margin-top: 6px; 
+    color: whitesmoke; 
+     margin: 50px; 
+    padding: 30px 0px 30px 0px;
+    text-align: center;
+}   

@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    padding: 0;
+    background:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.849) ), url(/images/restaurant-hall-with-red-brick-walls-wooden-tables-pipes-ceiling.jpg);
+    background-position: center;
+    background-size: cover;
+}
+header, aside, .last{
+    display: flex;
+    gap: 5em;
+    justify-content: left;
+    font-size: 13px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    
+}
+.bar{
+    background-color: transparent;
+    height: 450px;
+    border-radius: 30px;
+    backdrop-filter: blur(10px);
+    border: solid 0.5px white;
+    
+}
+ header{
+    padding: 0px 25px 0px 25px;
+      
+}
+aside,
+.last{
+    padding: 30px 25px 0px 25px;
+}
+input[type="text"], #Country{
+    /* border-radius: 5px; */
+    height:20px;
+    background-color: transparent;
+    border: solid 0.5px rgba(73, 73, 73, 0.253);
+    outline-color: blue;
+    color: white;
+}
+ .all{
+    
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    text-align: center;
+    color: green;
+    font-family: Monotype Corsiva;
+    font-weight: lighter;
+    font-size: medium;
+}  
+section{
+    line-height: 25px;
+}
+.signup{
+    align-items: center;
+}
+.signup{
+    text-align: center;
+    margin-top: 45px;
+}
+input[type="submit"]{
+    width: 420px;
+    height: 50px;
+    border: 1px solid;
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+}
+input:hover{
+    border-color: blue;
+    transition: 2s;
+}
+.linkup span{
+    font-family:Adobe Hebrew;
+    font-weight: lighter;
+    font-size: 14px;
+}
+.linkup a{
+    color: rgb(18, 36, 143);
+    text-decoration: none;
+   font-family: Yu Gothic UI;
+    font-weight:600;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input[type="radio"]{
+    background-color: transparent;
+}
+#Country{
+    color: white;
+}
+option{
+    color: black;
+}

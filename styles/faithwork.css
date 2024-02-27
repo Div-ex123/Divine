@@ -1,0 +1,26 @@
+table , thead , th , tr, td{
+    border: 2px solid blue;
+    border-collapse: collapse;
+    padding: 10px 40px;
+    text-align: left;
+}
+thead{
+    text-transform: uppercase;
+    color:blueviolet;
+}
+.uni{
+    color: brown;
+    font-weight: bolder;
+}
+.unique{
+    text-transform: uppercase;
+    color: red;
+
+}
+.good{background-color: burlywood;
+    text-transform: uppercase;
+
+}
+.body{
+    background-color: aqua;
+}

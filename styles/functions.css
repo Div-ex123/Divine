@@ -1,0 +1,16 @@
+.new-icon{
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 10px 15px 10px 15px;
+    border-radius: 50px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.is-subscribed{
+    background-color: rgb(240, 240, 240);
+    color: black;
+}
+.allput, .detailinput{
+    padding: 10px;
+}

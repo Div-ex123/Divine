@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles/functions.css">
+</head>
+<body>
+    <p>Youtube Subscribe Button</p>
+    <button onclick="
+         Subscribe()
+        " class="new-icon">
+        Subscribe
+    </button>
+    <br>
+    <br>
+    <br>
+    <input type="text" class="detailinput" onkeydown="
+    if (event.key === 'Enter') {
+        calculateTotal();
+    }">
+    <button onclick="
+    calculateTotal();
+    " class="allput">
+    Calculate
+    </button>
+    <p class="output"></p>
+   
+    <script>
+            
+           function calculateTotal() {
+            const inputElement = document.querySelector('.detailinput');
+            let cost = Number(inputElement.value);
+
+            if (cost >= 1 && cost < 40) {
+                cost += 10;
+             } 
+             else if (cost === 0) {
+               cost = ('null');
+             }
+            document.querySelector('.output').innerHTML = `$${cost}`;
+           } 
+
+
+
+
+
+        function Subscribe(){
+            const buttonFace = document.querySelector('button');
+
+            if (buttonFace.innerText === 'Subscribe') {
+                buttonFace.innerHTML = 'Subscribed';
+                buttonFace.classList.add('is-subscribed');
+            } else {
+                buttonFace.innerHTML = 'Subscribe';
+                buttonFace.classList.remove('is-subscribed');
+            }
+        }
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>

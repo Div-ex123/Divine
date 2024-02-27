@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 30px;
+    
+}
+header{
+    display: flex;
+justify-content: space-between;
+align-items: center;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 25px;
+
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+select{
+    border: none;
+}
+.bag{
+    width: 35px;
+}
+.images{
+     display: flex; 
+     gap: 15px;
+     margin-right: 15px;
+     
+}
+.price{
+    background-color: red;
+}
+
